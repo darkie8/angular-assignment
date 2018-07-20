@@ -79,6 +79,7 @@ export class CardViewComponent implements OnInit {
         sigma(this.mainObject.povBooks);
         sigma(this.mainObject.povCharacters);
         sigma(this.mainObject.characters);
+        sigma(this.mainObject.spouse);
       },
       error => {
         console.log('error accessing');
