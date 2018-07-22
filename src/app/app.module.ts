@@ -50,7 +50,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       { path: 'books', component: BooksComponent },
       { path: 'characters', component: CharactersComponent },
       { path: 'element/:type/:id', component: CardViewComponent }
-    ]),
+    ], {useHash: true}),
     GoTopButtonModule,
     BrowserAnimationsModule
   ],
